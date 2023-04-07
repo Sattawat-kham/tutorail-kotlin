@@ -1,3 +1,3 @@
 # tutorail-kotlin
 
-git colone https://github.com/Sattawat-kham/tutorail-kotlin.git
+git clone https://github.com/Sattawat-kham/tutorail-kotlin.git
