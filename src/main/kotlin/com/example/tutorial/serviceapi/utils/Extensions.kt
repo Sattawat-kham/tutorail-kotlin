@@ -12,6 +12,8 @@ import org.springframework.web.reactive.function.server.json
 
 inline fun <reified T : Any> getLogger(): Logger = LoggerFactory.getLogger(T::class.java)
 
+fun generateUUID() = UUID.randomUUID().toString()
+
 suspend inline fun <T : Any> transferResponseSuccess(headerRequest: ServerRequest.Headers, response: T) =
     ServerResponse
         .ok()
